@@ -9,7 +9,8 @@ Time to time you need to build a not SPA web application but triditional multipl
 ## Features
 
 1. [**webpack 2**](https://webpack.js.org): JavaScript module bundler
-2. [**babel**](https://babeljs.io/): Use next generation JavaScript today
+2. [**express**](http://expressjs.com/): Minimal and powerful framework to serve webpack output
+3. [**babel**](https://babeljs.io/): Use next generation JavaScript today
 4. [**postcss**](https://github.com/postcss/postcss): A tool for transforming styles
 5. [**pug**](https://pugjs.org): A high performance template engine
 6. [**eslint**](http://eslint.org/): The pluggable linting utility for JavaScript and JSX
