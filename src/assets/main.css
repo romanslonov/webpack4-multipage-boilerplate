@@ -1,0 +1,16 @@
+body {
+    background-color: #f1f1f1;
+}
+
+
+.header {
+    padding: 16px;
+
+    text-align: center;
+
+    border-radius: 4px;
+    background-color: white;
+    &__title {
+        color: green;
+    }
+}
