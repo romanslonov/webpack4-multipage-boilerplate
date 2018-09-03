@@ -1,1 +1,1 @@
-console.log('index page js');
+window.console.log('index page js');
