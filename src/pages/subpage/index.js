@@ -1,1 +1,3 @@
-import app from '../../app.js'
+import './subpage.css';
+
+console.log('sub page js');

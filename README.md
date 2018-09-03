@@ -1,6 +1,6 @@
-# webpack2-multipage-boilerplate
+# webpack4-multipage-boilerplate
 
-This is a simple boilerplate for using [webpack 2](https://webpack.js.org) with [pug](https://pugjs.org) and [POSTCSS](https://github.com/postcss/postcss) to build multi-page website.
+This is a simple boilerplate for using [webpack 4](https://webpack.js.org) with [pug](https://pugjs.org) and [POSTCSS](https://github.com/postcss/postcss) to build multi-page website.
 
 ## Why?
 
@@ -8,11 +8,9 @@ Time to time you need to build a not SPA web application but triditional multipl
 
 ## Features
 
-1. [**webpack 2**](https://webpack.js.org): JavaScript module bundler
-2. [**express**](http://expressjs.com/): Minimal and powerful framework to serve webpack output
-3. [**babel**](https://babeljs.io/): Use next generation JavaScript today
+1. [**webpack 4**](https://webpack.js.org): JavaScript module bundler
+3. [**babel 7**](https://babeljs.io/): Use next generation JavaScript today
 4. [**postcss**](https://github.com/postcss/postcss): A tool for transforming styles
-5. [**pug**](https://pugjs.org): A high performance template engine
 6. [**eslint**](http://eslint.org/): The pluggable linting utility for JavaScript and JSX
 
 ### Boilerplate structure
@@ -21,8 +19,8 @@ Time to time you need to build a not SPA web application but triditional multipl
 build/                codes related to building and dev-server
 src/
 |- assets/            assets (optional)
+|- css/               stylesheets of an app
 |- pages/             folder contains pages for the project
-|  |- index.pug       page that turns to html
+|  |- index.html      html page
 |  |- index.js        entry point for this page
-|- partials/          partials used in the pages (optional)
 ```

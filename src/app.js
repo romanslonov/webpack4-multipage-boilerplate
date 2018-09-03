@@ -1,1 +1,1 @@
-import './assets/main.css'
+import './css/main.css';
