@@ -2,8 +2,7 @@
   "name": "webpack4-multipage",
   "author": "Roman Slonov",
   "version": "2.0.0",
-  "description": "",
-  "main": "./src/app.js",
+  "description": "Simple yet, powerful boilerplate using postcss and webpack 4 for building multi-page websites",
   "scripts": {
     "build": "webpack --config ./build/webpack.config.prod.js --mode production",
     "start": "webpack-dev-server --open --config ./build/webpack.config.dev.js --mode development"
@@ -30,9 +29,9 @@
     "postcss-reporter": "^6.0.0",
     "style-loader": "^0.17.0",
     "url-loader": "^1.1.2",
-    "webpack": "^4.17.1",
+    "webpack": "^4.42.0",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.7",
+    "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.1.4"
   },
   "license": "MIT"
